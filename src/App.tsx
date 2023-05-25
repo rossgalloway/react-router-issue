@@ -1,12 +1,7 @@
 // src/App.tsx
 
 import React, { useState, useEffect } from 'react'
-import {
-  Routes,
-  Route,
-  useLocation,
-  Link,
-} from 'react-router-dom'
+import { Routes, Route, useLocation, Link } from 'react-router-dom'
 import './App.css'
 
 const Home = () => <h1>Home</h1>
