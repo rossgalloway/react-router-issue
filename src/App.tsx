@@ -18,10 +18,6 @@ const App: React.FC = () => {
 
   const location = useLocation()
 
-    const handleClick = () => {
-      setShowContent(false)
-    }
-
   useEffect(() => {
     setShowContent(false)
 
@@ -34,13 +30,13 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <Link className="button" to="/one" onClick={handleClick}>
+      <Link className="button" to="/one">
         Page One
       </Link>
-      <Link className="button" to="/two" onClick={handleClick}>
+      <Link className="button" to="/two">
         Page Two
       </Link>
-      <Link className="button" to="/" onClick={handleClick}>
+      <Link className="button" to="/">
         Home
       </Link>
 
